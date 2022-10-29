@@ -1,0 +1,393 @@
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>trading.py
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code: NDX
+[*********************100%***********************]  1 of 1 completed
+Traceback (most recent call last):
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 63, in <module>
+    do = what_to_do(z)
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 41, in what_to_do
+    if value > 2.5:
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\pandas\core\generic.py", line 1526, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code: ^GSPC
+[*********************100%***********************]  1 of 1 completed
+Traceback (most recent call last):
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 63, in <module>
+    do = what_to_do(z)
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 41, in what_to_do
+    if value > 2.5:
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\pandas\core\generic.py", line 1526, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> code trading.py
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+[main 2022-10-13T18:32:09.132Z] update#setState idle
+[main 2022-10-13T18:32:11.305Z] Starting extension host with pid 252 (fork() took 30 ms).
+[main 2022-10-13T18:32:39.146Z] update#setState checking for updates
+[main 2022-10-13T18:32:39.331Z] update#setState idle
+
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+[*********************100%***********************]  1 of 1 completed
+Traceback (most recent call last):
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 64, in <module>
+    do = what_to_do(z)
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 41, in what_to_do
+    if value > 2.5:
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\pandas\core\generic.py", line 1526, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> code trading.py
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+[main 2022-10-13T18:33:42.340Z] update#setState idle
+[main 2022-10-13T18:33:43.726Z] Starting extension host with pid 4432 (fork() took 28 ms).
+[main 2022-10-13T18:34:12.357Z] update#setState checking for updates
+[main 2022-10-13T18:34:12.530Z] update#setState idle
+[14588:1013/153542.404:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is
+
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code: ^GSPC
+[*********************100%***********************]  1 of 1 completed
+^GSPC
+Date
+2022-10-13 00:00:00-04:00    3661.389893
+Name: Close, dtype: float64
+Normal Rank. Keep
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> code trading.py
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+[main 2022-10-13T18:43:18.543Z] update#setState idle
+[main 2022-10-13T18:43:19.950Z] Starting extension host with pid 20200 (fork() took 25 ms).
+[main 2022-10-13T18:43:48.554Z] update#setState checking for updates
+[main 2022-10-13T18:43:48.733Z] update#setState idle
+[12860:1013/154518.520:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is
+
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code: AHG
+[*********************100%***********************]  1 of 1 completed
+Traceback (most recent call last):
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 78, in <module>
+    info_dict = sym_data.company_info()
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 41, in company_info
+    self.info = ticker.info
+AttributeError: 'Tickers' object has no attribute 'info'
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> code trading.py
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+[main 2022-10-13T19:10:48.382Z] update#setState idle
+[main 2022-10-13T19:10:49.907Z] Starting extension host with pid 9184 (fork() took 33 ms).
+[main 2022-10-13T19:11:18.386Z] update#setState checking for updates
+[main 2022-10-13T19:11:18.559Z] update#setState idle
+
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code: AHG
+[*********************100%***********************]  1 of 1 completed
+AHG
+{'zip': '100020', 'sector': 'Financial Services', 'fullTimeEmployees': 113, 'longBusinessSummary': 'Akso Health Group operates a social e-commerce mobile platform in China. The company operates Xiaobai Maimai App, which offers food and beverage products, wine, cosmetic products, fashion and apparel, entertainment products, housewares, home appliances, etc. It also offers consultancy and information technology support services; and trades in branded products, as well as promotes products. The company was formerly known as Xiaobai Maimai Inc. and changed its name to Akso Health Group in December 2021. Akso Health Group was founded in 2014 and is headquartered in Beijing, China. As of July 13, 2021, Akso Health Group operates as a subsidiary of Webao Limited.', 'city': 'Beijing', 'phone': '86 10 5370 9902', 'country': 'China', 'companyOfficers': [], 'website': 'https://www.xiaobaimaimai.com', 'maxAge': 1, 'address1': 'Room 515', 'industry': 'Credit Services', 'address2': '5th Floor Jia No. 92-4 to 24 Jianguo Road Chaoyang District', 'ebitdaMargins': 0, 'profitMargins': 0, 'grossMargins': 13.11441, 'operatingCashflow': None, 'revenueGrowth': -0.818, 'operatingMargins': -30.171421, 'ebitda': -19577648, 'targetLowPrice': None, 'recommendationKey': 'none', 'grossProfits': 1754935, 'freeCashflow': None, 'targetMedianPrice': None, 'currentPrice': 0.7881, 'earningsGrowth': None, 'currentRatio': 1.72, 'returnOnAssets': -0.26347, 'numberOfAnalystOpinions': None, 'targetMeanPrice': None, 'debtToEquity': 61.374, 'returnOnEquity': -0.98510003, 'targetHighPrice': None, 'totalCash': 15456825, 'totalDebt': 12000000, 'totalRevenue': 647637, 'totalCashPerShare': 0.676, 'financialCurrency': 'USD', 'revenuePerShare': 0.039, 'quickRatio': 1.66, 'recommendationMean': None, 'exchange': 'NGM', 'shortName': 'Akso Health Group', 'longName': 'Akso Health Group', 'exchangeTimezoneName': 'America/New_York', 'exchangeTimezoneShortName': 'EDT', 'isEsgPopulated': False, 'gmtOffSetMilliseconds': '-14400000', 'quoteType': 'EQUITY', 'symbol': 'AHG', 'messageBoardId': 'finmb_539205452', 'market': 'us_market', 'annualHoldingsTurnover': None, 'enterpriseToRevenue': 23.088, 'beta3Year': None, 'enterpriseToEbitda': -0.764, '52WeekChange': -0.8466667, 'morningStarRiskRating': None, 'forwardEps': None, 'revenueQuarterlyGrowth': None, 'sharesOutstanding': 23826200, 'fundInceptionDate': None, 'annualReportExpenseRatio': None, 'totalAssets': None, 'bookValue': 0.855, 'sharesShort': 57107, 'sharesPercentSharesOut': 0.0023999999, 'fundFamily': None, 'lastFiscalYearEnd': 1617148800, 'heldPercentInstitutions': 0.02428, 'netIncomeToCommon': -22954968, 'trailingEps': -1.216, 'lastDividendValue': 1.2, 'SandP52WeekChange': -0.1940468, 'priceToBook': 0.92175436, 'heldPercentInsiders': 0, 'nextFiscalYearEnd': 1680220800, 'yield': None, 'mostRecentQuarter': 1632960000, 'shortRatio': 3.6, 'sharesShortPreviousMonthDate': 1660521600, 'floatShares': 12636447, 'beta': 1.249182, 'enterpriseValue': 14952605, 'priceHint': 4, 'threeYearAverageReturn': None, 'lastSplitDate': 1598227200, 'lastSplitFactor': '1:3', 'legalType': None, 'lastDividendDate': 1533081600, 'morningStarOverallRating': None, 'earningsQuarterlyGrowth': None, 'priceToSalesTrailing12Months': 30.610752, 'dateShortInterest': 1663200000, 'pegRatio': None, 'ytdReturn': None, 'forwardPE': None, 'lastCapGain': None, 'shortPercentOfFloat': None, 'sharesShortPriorMonth': 79608, 'impliedSharesOutstanding': 0, 'category': None, 'fiveYearAverageReturn': None, 'previousClose': 0.69, 'regularMarketOpen': 0.68, 'twoHundredDayAverage': 1.252985, 'trailingAnnualDividendYield': 0, 'payoutRatio': 0, 'volume24Hr': None, 'regularMarketDayHigh': 0.7899, 'navPrice': None, 'averageDailyVolume10Day': 17080, 'regularMarketPreviousClose': 0.69, 'fiftyDayAverage': 1.04398, 'trailingAnnualDividendRate': 0, 'open': 0.68, 'toCurrency': None, 'averageVolume10days': 17080, 'expireDate': None, 'algorithm': None, 'dividendRate': None, 'exDividendDate': 1533081600, 'circulatingSupply': None, 'startDate': None, 'regularMarketDayLow': 0.6768, 'currency': 'USD', 'regularMarketVolume': 23456, 'lastMarket': None, 'maxSupply': None, 'openInterest': None, 'marketCap': 19824656, 'volumeAllCurrencies': None, 'strikePrice': None, 'averageVolume': 31928, 'dayLow': 0.6768, 'ask': 0.8, 'askSize': 800, 'volume': 23456, 'fiftyTwoWeekHigh': 22.39, 'fromCurrency': None, 'fiveYearAvgDividendYield': None, 'fiftyTwoWeekLow': 0.59, 'bid': 0.7342, 'tradeable': False, 'dividendYield': None, 'bidSize': 800, 'dayHigh': 0.7899, 'coinMarketCapLink': None, 'regularMarketPrice': 0.7881, 'preMarketPrice': None, 'logo_url': 'https://logo.clearbit.com/xiaobaimaimai.com'}
+Date
+2022-10-13 00:00:00-04:00    0.7527
+Name: Close, dtype: float64
+Normal Rank. Keep
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> code trading.py
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+[main 2022-10-13T19:30:22.795Z] update#setState idle
+[main 2022-10-13T19:30:24.054Z] Starting extension host with pid 19252 (fork() took 22 ms).
+[main 2022-10-13T19:30:52.802Z] update#setState checking for updates
+[main 2022-10-13T19:30:52.984Z] update#setState idle
+[8464:1013/163222.831:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is
+
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code:
+[*********************100%***********************]  0 of 0 completed
+Traceback (most recent call last):
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\yfinance\multi.py", line 144, in download
+    data = _pd.concat(shared._DFS.values(), axis=1,
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\pandas\util\_decorators.py", line 317, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\pandas\core\reshape\concat.py", line 369, in concat
+    op = _Concatenator(
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\pandas\core\reshape\concat.py", line 426, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 75, in <module>
+    sym_data = GetData(sym)
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 25, in __init__
+    self.data = yf.download(tickers=(self.symbol),
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\yfinance\multi.py", line 148, in download
+    data = _pd.concat(shared._DFS.values(), axis=1,
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\pandas\util\_decorators.py", line 317, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\pandas\core\reshape\concat.py", line 369, in concat
+    op = _Concatenator(
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\pandas\core\reshape\concat.py", line 426, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code: AHG
+[*********************100%***********************]  1 of 1 completed
+Traceback (most recent call last):
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 78, in <module>
+    info_dict = sym_data.company_info()
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 41, in company_info
+    self.info = ticker.info[""]
+KeyError: ''
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> code trading.py
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+[main 2022-10-13T19:45:34.555Z] update#setState idle
+[main 2022-10-13T19:45:35.810Z] Starting extension host with pid 16492 (fork() took 33 ms).
+
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code: AHG
+[*********************100%***********************]  1 of 1 completed
+AHG
+Akso Health Group
+Financial Services
+Full time employee 113
+Akso Health Group operates a social e-commerce mobile platform in China. The company operates Xiaobai Maimai App, which offers food and beverage products, wine, cosmetic products, fashion and apparel, entertainment products, housewares, home appliances, etc. It also offers consultancy and information technology support services; and trades in branded products, as well as promotes products. The company was formerly known as Xiaobai Maimai Inc. and changed its name to Akso Health Group in December 2021. Akso Health Group was founded in 2014 and is headquartered in Beijing, China. As of July 13, 2021, Akso Health Group operates as a subsidiary of Webao Limited.
+Date
+2022-10-13 00:00:00-04:00    0.7527
+Name: Close, dtype: float64
+Normal Rank. Keep
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> code trading.py
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+[main 2022-10-13T19:53:20.036Z] update#setState idle
+[main 2022-10-13T19:53:21.172Z] Starting extension host with pid 20460 (fork() took 20 ms).
+[main 2022-10-13T19:53:50.066Z] update#setState checking for updates
+[main 2022-10-13T19:53:50.242Z] update#setState idle
+[15508:1013/165520.087:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is
+
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code: AHG
+[*********************100%***********************]  1 of 1 completed
+AHG
+Date
+2022-10-13 00:00:00-04:00    0.7527
+Name: Close, dtype: float64
+Normal Rank. Keep
+(This may take several time) Do you want additional info?(y/n)
+n
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> code trading.py
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+[main 2022-10-13T19:59:54.591Z] update#setState idle
+[main 2022-10-13T19:59:55.717Z] Starting extension host with pid 13484 (fork() took 21 ms).
+[main 2022-10-13T20:00:24.606Z] update#setState checking for updates
+[main 2022-10-13T20:00:24.785Z] update#setState idle
+[19788:1013/170154.618:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code: AHG
+[*********************100%***********************]  1 of 1 completed
+AHG
+Date
+2022-10-13 00:00:00-04:00    0.7998
+Name: Close, dtype: float64
+Normal Rank. Keep
+ value represents -0.6093375807745678 standard deviations
+(This may take several time) Do you want additional info?(y/n)
+n
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> code trading.py
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+[main 2022-10-13T20:13:35.051Z] update#setState idle
+[main 2022-10-13T20:13:36.231Z] Starting extension host with pid 2988 (fork() took 24 ms).
+[main 2022-10-13T20:14:05.063Z] update#setState checking for updates
+[main 2022-10-13T20:14:05.234Z] update#setState idle
+
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> python trading.py
+Enter the symbol code: ^GSPC
+[*********************100%***********************]  1 of 1 completed
+^GSPC
+Date
+2022-10-13 00:00:00-04:00    3669.909912
+Name: Close, dtype: float64
+Normal Rank. Keep
+ value represents -1.79 standard deviations
+(This may take several time) Do you want additional info?(y/n)
+n
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code> code trading.py\
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
+[main 2022-10-13T21:19:34.390Z] update#setState idle
+[main 2022-10-13T21:19:35.528Z] Starting extension host with pid 11312 (fork() took 21 ms).
+
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>python trading.py
+Enter the symbol code: CHK
+[*********************100%***********************]  1 of 1 completed
+CHK
+Date
+2022-10-13 00:00:00-04:00    101.959999
+Name: Close, dtype: float64
+Normal Rank. Keep
+Value represents 1.52 standard deviations
+(This may take several time) Do you want additional info?(y/n)
+y
+Chesapeake Energy Corporation
+Energy
+Full time employee 1300
+Chesapeake Energy Corporation, an independent exploration and production company, engages in the acquisition, exploration, and development of properties for the production of oil, natural gas, and natural gas liquids from underground reservoirs in the United States. The company holds interests in natural gas resource plays in the Marcellus Shale in the northern Appalachian Basin in Pennsylvania and the Haynesville/Bossier Shales in northwestern Louisiana; and the liquids-rich resource play in the Eagle Ford Shale in South Texas. As of December 31, 2021, it owned interests in approximately 8,200 gross productive wells, including 6,500 wells with working interest and 1,700 wells with an overriding or royalty interest; and had estimated proved reserves of 661 million barrels of oil equivalent. The company was founded in 1989 and is headquartered in Oklahoma City, Oklahoma.
+ https://www.chk.com
+ United States
+ Oklahoma City
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>python trading.py
+Enter the symbol code: IE00B3DWTN95
+[*********************100%***********************]  1 of 1 completed
+Traceback (most recent call last):
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 75, in <module>
+    sym_data = GetData(sym)
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 25, in __init__
+    self.data = yf.download(tickers=(self.symbol),
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\yfinance\multi.py", line 141, in download
+    return shared._DFS[shared._ISINS.get(ticker, ticker)]
+KeyError: 'IE00B3DWTN95'
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>python trading.py
+Enter the symbol code: KO
+[*********************100%***********************]  1 of 1 completed
+KO
+Date
+2022-10-13 00:00:00-04:00    55.869999
+Name: Close, dtype: float64
+Normal Rank. Keep
+Value represents -1.07 standard deviations
+(This may take several time) Do you want additional info?(y/n)
+y
+The Coca-Cola Company
+Consumer Defensive
+Full time employee 79000
+The Coca-Cola Company, a beverage company, manufactures, markets, and sells various nonalcoholic beverages worldwide. The company provides sparkling soft drinks; flavored and enhanced water, and sports drinks; juice, dairy, and plantbased beverages; tea and coffee; and energy drinks. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers, such as restaurants and convenience stores. The company sells its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, Fanta, Fresca, Schweppes, Sprite, Thums Up, Aquarius, Ciel, dogadan, Dasani, glacéau smartwater, glacéau vitaminwater, Ice Dew, I LOHAS, Powerade, Topo Chico, AdeS, Del Valle, fairlife, innocent, Minute Maid, Minute Maid Pulpy, Simply, Ayataka, BODYARMOR, Costa, FUZE TEA, Georgia, and Gold Peak brands. It operates through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottling and distribution operators. The company was founded in 1886 and is headquartered in Atlanta, Georgia.
+ https://www.coca-colacompany.com
+ United States
+ Atlanta
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>python trading.py
+Enter the symbol code: RCL
+[*********************100%***********************]  1 of 1 completed
+RCL
+Date
+2022-10-13 00:00:00-04:00    44.75
+Name: Close, dtype: float64
+Normal Rank. Keep
+Value represents -1.01 standard deviations
+(This may take several time) Do you want additional info?(y/n)
+y
+Royal Caribbean Cruises Ltd.
+Consumer Cyclical
+Full time employee 84900
+Royal Caribbean Cruises Ltd. operates as a cruise company worldwide. The company operates cruises under the Royal Caribbean International, Celebrity Cruises, Azamara, and Silversea Cruises brands, which comprise a range of itineraries that call on approximately 1,000 destinations. As of February 25, 2022, it operated 61 ships. The company was founded in 1968 and is headquartered in Miami, Florida.
+ https://www.rclinvestor.com
+ United States
+ Miami
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>python trading.py
+Enter the symbol code: SPOT
+[*********************100%***********************]  1 of 1 completed
+SPOT
+Date
+2022-10-13 00:00:00-04:00    82.650002
+Name: Close, dtype: float64
+Normal Rank. Keep
+Value represents -1.17 standard deviations
+(This may take several time) Do you want additional info?(y/n)
+n
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>python trading.py
+Enter the symbol code: TWLO
+[*********************100%***********************]  1 of 1 completed
+TWLO
+Date
+2022-10-13 00:00:00-04:00    66.389999
+Name: Close, dtype: float64
+Normal Rank. Keep
+Value represents -1.1 standard deviations
+(This may take several time) Do you want additional info?(y/n)
+n
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>python trading.py
+Enter the symbol code: PAH3
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+- PAH3: No data found, symbol may be delisted
+Traceback (most recent call last):
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 76, in <module>
+    z, tail = sym_data.find_z()
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 34, in find_z
+    z_from_mean = float(
+  File "C:\Users\niko_\miniconda3\envs\finance\lib\site-packages\pandas\core\series.py", line 207, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+TypeError: cannot convert the series to <class 'float'>
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>python trading.py
+Enter the symbol code: GD
+[*********************100%***********************]  1 of 1 completed
+GD
+Date
+2022-10-13 00:00:00-04:00    229.130005
+Name: Close, dtype: float64
+Normal Rank. Keep
+Value represents 0.77 standard deviations
+(This may take several time) Do you want additional info?(y/n)
+y
+General Dynamics Corporation
+Industrials
+Full time employee 100000
+General Dynamics Corporation operates as an aerospace and defense company worldwide. It operates through four segments: Aerospace, Marine Systems, Combat Systems, and Technologies. The Aerospace segment designs, manufactures, and sells business jets; and offers aircraft maintenance and repair, management, charter, aircraft-on-ground support and completion, staffing, and fixed-base operator services. The Marine Systems segment designs and builds nuclear-powered submarines, surface combatants, and auxiliary ships for the United States Navy and Jones Act ships for commercial customers, as well as builds crude oil and product tankers, and container and cargo ships. This segment also provides navy ships maintenance and modernization services; lifecycle support and repair services for navy surface ships; and program management, planning, engineering, and design support services for submarines and surface ships. The Combat Systems segment manufactures land combat solutions, such as wheeled and tracked combat vehicles, Stryker wheeled combat vehicles, piranha vehicles, weapons systems, munitions, mobile bridge systems with payloads, tactical vehicles, main battle tanks, armored vehicles, and armaments. This segment also offers modernization programs, engineering, support, and sustainment services. The Technologies segment provides information technology solutions and mission support services; mobile communication, computers, and command-and-control mission systems; and intelligence, surveillance, and reconnaissance solutions to military, intelligence, and federal civilian customers. This segment also offers cloud computing, artificial intelligence; machine learning; big data analytics; development, security, and operations; software-defined networks; everything-as-a-service; defense enterprise office system solutions; and unmanned undersea vehicle manufacturing and assembly services. General Dynamics Corporation was founded in 1899 and is headquartered in Reston, Virginia.
+ https://www.gd.com
+ United States
+ Reston
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>python trading.py
+Enter the symbol code: FHLC
+[*********************100%***********************]  1 of 1 completed
+FHLC
+Date
+2022-10-13 00:00:00-04:00    59.139999
+Name: Close, dtype: float64
+Normal Rank. Keep
+Value represents -1.37 standard deviations
+(This may take several time) Do you want additional info?(y/n)
+y
+Traceback (most recent call last):
+  File "C:\Users\niko_\Desktop\dev\Finance\code\trading.py", line 91, in <module>
+    f"{info_dict['info']['longName']}\n{info_dict['info']['sector']}\nFull time employee {info_dict['info']['fullTimeEmployees']}\n{info_dict['info']['longBusinessSummary']}\n {info_dict['info']['website']}\n {info_dict['info']['country']}\n {info_dict['info']['city']}")
+KeyError: 'sector'
+
+(finance) C:\Users\niko_\Desktop\dev\Finance\code>
