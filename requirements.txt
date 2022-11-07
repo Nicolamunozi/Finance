@@ -1,0 +1,4 @@
+numpy==1.23.3
+pandas==1.5.0
+yahoo_fin==0.8.9.1
+yfinance==0.1.77
