@@ -70,27 +70,33 @@ def what_to_do(value):
 
 #----------Scripting-------------#
 
+def main():
+    sym = input("Enter the symbol code: ")
+    sym_data = GetData(sym)
+    z, tail = sym_data.find_z()
+    do = what_to_do(z)
+    z = round(z, 2)
 
-sym = input("Enter the symbol code: ")
-sym_data = GetData(sym)
-z, tail = sym_data.find_z()
-do = what_to_do(z)
-z = round(z, 2)
-
-# Main Info
-print(f"{sym}\n{tail}\n{do}\nValue represents {z} standard deviations")
+    # Main Info
+    print(f"{sym}\n{tail}\n{do}\nValue represents {z} standard deviations")
 
 
-# Additional Info.
+    # Additional Info.
 
-additional_info = input(
-    f"(This may take several time) Do you want additional info?(y/n)\n")
-if additional_info == "y":
-    info_dict = sym_data.company_info()
-    print(
-        f"{info_dict['info']['longName']}\n{info_dict['info']['sector']}\nFull time employee {info_dict['info']['fullTimeEmployees']}\n{info_dict['info']['longBusinessSummary']}\n {info_dict['info']['website']}\n {info_dict['info']['country']}\n {info_dict['info']['city']}")
-
-   # Secondary Info.
-    if do != "Normal Rank. Keep":
+    additional_info = input(
+        f"(This may take several time) Do you want additional info?(y/n)\n")
+    if additional_info == "y":
+        info_dict = sym_data.company_info()
         print(
-            f"{info_dict['major_holders']}\n{info_dict['institutional_holders']}\n{info_dict['sustainability']}")
+            f"{info_dict['info']['longName']}\n{info_dict['info']['sector']}\nFull time employee {info_dict['info']['fullTimeEmployees']}\n{info_dict['info']['longBusinessSummary']}\n {info_dict['info']['website']}\n {info_dict['info']['country']}\n {info_dict['info']['city']}")
+
+    # Secondary Info.
+        if do != "Normal Rank. Keep":
+            print(
+                f"{info_dict['major_holders']}\n{info_dict['institutional_holders']}\n{info_dict['sustainability']}")
+
+
+#Running the app
+if __name__ == "__main__":
+    
+    main()
